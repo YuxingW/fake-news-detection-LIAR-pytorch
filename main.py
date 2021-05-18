@@ -81,7 +81,7 @@ def driver(train_file, valid_file, test_file, output_file, dataset, mode, pathMo
     nnArchitecture = 'fake-net'
     lr = hyper['lr']
     epoch = hyper['epoch']
-    use_cuda = True
+    use_cuda = False
     num_classes = hyper['num_classes']
 
 
